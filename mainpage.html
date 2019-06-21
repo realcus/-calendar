@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link href="mainpage.css" rel="stylesheet" type="text/css"/>
+<title>软微日程管理</title>
+</head>
+<body >
+    <div  class="topbar">
+        <h3>用户</h3>
+    </div>
+    <div class="leftbar">
+            
+        
+                <div class="table">  
+                     <a  style=" text-align:center;color:rgba(73, 72, 72, 0.808);font-size: 20px; 
+                    margin: 8px;padding: 0;text-decoration: none" href="#">本月日程</a> 
+                    <hr/></div>
+                  <div class="table">   <a  style=" text-align:center;color:rgba(73, 72, 72, 0.808);font-size: 20px; 
+                    margin: 8px;
+                    padding: 0;text-decoration: none" href="#">添加日程</a> <hr/></div>
+                    <div class="table">   <a  style=" text-align:center;color:rgba(73, 72, 72, 0.808);font-size: 20px; 
+                        margin: 8px;
+                        padding: 0;text-decoration: none" href="#">查看日程</a> <hr/></div>
+                        <div class="table">   <a  style=" text-align:center;color:rgba(73, 72, 72, 0.808);font-size: 20px; 
+                            margin: 8px;
+                            padding: 0;text-decoration: none" href="#">个人设置</a> <hr/></div>
+  
+    </div>
+
+    
+<div class="mainschedule">
+
+
+
+        <form action="#" method="post">
+                
+                <label for="POST-date">日期: </label>
+                <input type="date">
+                <br>
+             
+                <label for="POST-period">时段: </label>
+                <select name="perriod" id="perriod">
+                    <option value="1">上午</option>
+                    <option value="2">下午</option>
+                    <option value="3">晚上</option>
+                </select>
+                <br>
+                <label for="POST-location">地点: </label>
+                <select name="location" id="location">
+                    <option value="大兴">大兴</option>
+                    <option value="校本部">校本部</option>
+                </select>
+                <br>
+                <label for="POST-affair">事项: </label>
+                <input type="text" list="affair">
+                <datalist id="affair">
+                    <option value="上课"></option>
+                    <option value="有事"></option>
+                </datalist>
+                <br>
+    
+                <input type="submit" value="Save" class="submit">
+    
+    
+            </form>
+
+
+
+
+            <table id="calendar" style=" text-align:center; "border="1px" width="500px" height="250px" >
+                    <caption class="captionfont">本月日程</caption>
+                    <br>
+                <tr class="weekday" bgcolor= gray  >
+                    <td class="head">  日  </td>
+                    <td class="head">一</td>
+                    <td class="head">二</td>
+                    <td class="head">三</td>
+                    <td class="head">四</td>
+                    <td class="head">五</td>
+                    <td class="head">六</td>
+                    </tr>
+                    <tr class="day">
+                    <td id="begin">1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                    <td>7</td>
+                    </tr>
+                    <tr class="day">
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                    <td>7</td>
+                    </tr>
+                    <tr class="day">
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                    <td>7</td>
+                    </tr>
+                    <tr class="day">
+                    <td >1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                    <td>7</td>
+                    </tr>
+                    <tr class="day">
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                    <td>7</td>
+                    </tr>
+                    <tr class="day">
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                    <td id="end">7</td>
+                    </tr>
+                    </table>
+                
+                
+                    <div class="panel panel-default" >
+                            <div class="panel-heading">
+                                <h3 class="panel-title">
+                                    当日日程
+                                </h3>
+                                <hr/> 
+                            </div>
+                            <div class="panel-body">
+                                具体内容
+                            </div>
+                        </div>
+
+
+
+                       
+
+
+
+
+
+                </div>
+
+               
+                       
+
+    
+
+    </body>
+    </html>
+    

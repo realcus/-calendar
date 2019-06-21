@@ -1,0 +1,72 @@
+
+* {
+    /*padding: 0;
+    margin: 0;*/
+    font-family: "微软雅黑";
+  }
+
+  .login {
+    margin: 150px auto;
+    width:500px; 
+    height:400px; 
+    background-color: rgba(247, 244, 244,0.5);
+  }
+   
+  .login.panel-default{
+   margin:200px 200px 200px 200px;
+  /*
+   left: 100px;
+  right: 0;
+  top:0;
+  bottom: 0;
+  */
+ 
+    
+   }
+  
+   .panel-title{
+     padding-top: 50px;
+     padding-bottom: 10px;
+     text-align: center;
+     /*color: #62a8ea;*/
+     color:  #76838f;
+   }
+
+   .login-container {
+   box-sizing: border-box;
+    margin: 20px 0 0;
+    text-align: center;
+    
+  }
+  
+.input{
+  width:200px;
+  height:30px;
+  font-size: 14px;
+  border: 1px solid white;
+  color:#76838f;
+}
+
+.btn-login {
+  background-color: #62a8ea;
+  
+ border: none;
+ width:200px;
+ height:30px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  opacity: 0.7;
+}
+.btn-login:hover{
+  /*触碰透明度*/
+  opacity: 1;
+}
+.forget{
+  float: right;
+  margin-top: 60px;
+}
+
+
+
